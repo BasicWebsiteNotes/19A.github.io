@@ -1,0 +1,13 @@
+.head{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.body{
+  text-align: justify;
+  background-color: #0F52BA;
+}
+.home{
+  background-color: green;
+  text-decoration: none;
+}
