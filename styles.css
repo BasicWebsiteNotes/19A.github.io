@@ -1,13 +1,28 @@
-.head{
+* {
+  box-sizing: border-box;
+}
+h1{
   text-align: center;
   background-color: black;
   color: white;
 }
-.body{
+body{
   text-align: justify;
   background-color: #0F52BA;
 }
-.home{
+.topnav{
   background-color: green;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
